@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1166px;
+    margin: 0 auto;
+}
+/* ============ Navbar Start ============= */
+nav {
+    background-color: #EEEDDE;
+}
+nav .navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navWrapper ul li {
+    display: inline-block;
+    margin-left: 100px;
+}
+nav .navWrapper ul li a {
+    text-decoration: none;
+    color: #203239;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+}
+nav .navWrapper ul li a:hover {
+    font-weight: 600;
+    transition: .4s;
+}
+nav .navWrapper ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    background-color: #F6762E;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    transition: .4s;
+}
+nav .navWrapper ul li:hover a::after {
+    width: 50%;
+}
+/* ============ Navbar End ============= */
+
+/* ============ Bannar Start ============= */
+#bannar {
+    background-color: #EEEDDE;
+    padding-top: 165px;
+    padding-bottom: 196px;
+}
+#bannar .bannarWrapper {
+    display: flex;
+    align-items: center;
+}
+.bannarWrapper .bannartext_area {
+    width: 65%;
+}
+.bannartext_area h1 {
+    width: 777px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    margin-bottom: 24px;
+}
+.bannartext_area p {
+    width: 544px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+}
+.bannartext_area input {
+    width: 508px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 56px;
+}
+.inputbox input::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+    font-family: 'Poppins', sans-serif;
+}
+.inputbox .bannaricon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 24px;
+}
+.inputbox {
+    position: relative;
+    display: inline-block;
+    margin-top: 55px;
+}
+.bannartext_area button {
+    width: 138px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+    background-color: #FFFFFF;
+    margin-left: 15px;
+}
+.bannarWrapper .bannarimage {
+    width: 35%;
+    text-align: right;
+}
+/* ============ Bannar End ============= */
+
+/* ============ Bannar2 Start ============= */
+#bannar2 {
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#bannar2 .bannarWrapper2 {
+
+}
+.bannarWrapper2 h2 {
+    width: 533px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+}
+.bannarWrapper2 .box .firstbox {
+    width: 300px;
+    height: 300px;
+    padding: 33px;
+}
+.bannarWrapper2 .box .firstbox h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+}
+.firstbox h4::before {
+    content: '';
+    width: 8px;
+    height: 30px;
+    background-color: #F6762E;
+    position: absolute;
+    margin-left: -30px;
+    border-radius: 6px;
+}
+.firstbox h4::after {
+    content: '01';
+    color: #F6762E;
+    position: absolute;
+    margin-left: 132px;
+}
+.bannarWrapper2 .box .firstbox p {
+    width: 235px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+    margin-top: 8px;
+}
+.bannarWrapper2 .box .firstbox h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 48px;
+}
+.arrowbox h5 {
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+}
+.bannarWrapper2 .box .secondbox {
+    width: 300px;
+    height: 300px;
+    padding: 33px;
+}
+.bannarWrapper2 .box .secondbox h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+}
+.secondbox h4::before {
+    content: '';
+    width: 8px;
+    height: 30px;
+    background-color: #F6762E;
+    position: absolute;
+    margin-left: -30px;
+    border-radius: 6px;
+}
+.secondbox h4::after {
+    content: '02';
+    color: #F6762E;
+    position: absolute;
+    margin-left: 132px;
+}
+.bannarWrapper2 .box .secondbox p {
+    width: 235px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+    margin-top: 8px;
+}
+.bannarWrapper2 .box .secondbox h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 78px;
+}
+.bannarWrapper2 .box .thirdbox {
+    width: 300px;
+    height: 300px;
+    padding: 33px;
+}
+.bannarWrapper2 .box .thirdbox h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+}
+.thirdbox h4::before {
+    content: '';
+    width: 8px;
+    height: 30px;
+    background-color: #F6762E;
+    position: absolute;
+    margin-left: -30px;
+    border-radius: 6px;
+}
+.thirdbox h4::after {
+    content: '03';
+    color: #F6762E;
+    position: absolute;
+    margin-left: 132px;
+}
+.bannarWrapper2 .box .thirdbox p {
+    width: 235px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, .55);
+    margin-top: 8px;
+}
+.bannarWrapper2 .box .thirdbox h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    margin-top: 48px;
+}
+.bannarWrapper2 .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+/* ============ Bannar2 End ============= */
+
+/* ============ Residen Start ============= */
+#residen {
+    background-color: #EEEDDE;
+    padding-bottom: 163px;
+    padding-top: 68px;
+    
+}
+#residen .residenWrapper h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    width: 144;
+    margin-bottom: 8px;
+}
+#residen .residenWrapper h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    width: 300;
+    line-height: 150%;
+    margin-bottom: 64px;
+}
+.residenbox .residenbox_image {
+    width: 50%;
+    position: relative;
+    
+}
+.residenbox .residenbox_image .residen2 {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 167px;
+
+}
+.residenbox .residenbox_text {
+    width: 50%;
+}
+.residenbox .residenbox_text h4 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    width: 507px;
+    margin-top: 39px;
+    margin-bottom: 24px;
+}
+.residenbox .residenbox_text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    width: 570px;
+    margin-bottom: 48px;
+}
+.residenbtn .pphoneicon {
+    margin-right: 12px;
+}
+.residenbtn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #203239;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 13px 41px;
+    display: inline-block;
+    transition: .4s;
+    margin-right: 48px;
+}
+.residenbtn a:hover {
+    background-color: #203239;
+    color: #FFFFFF;
+}
+.residenbox {
+    display: flex;
+}
+/* ============ Residen End ============= */
+
+/* ============ Kota Start ============= */
+#kota {
+    background-color: #FFFFFF;
+    padding-bottom: 68px;
+    padding-top: 68px;
+    
+}
+#kota .kotaWrapper h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    width: 144;
+    margin-bottom: 8px;
+}
+#kota .kotaWrapper h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    width: 300;
+    line-height: 150%;
+    margin-bottom: 64px;
+}
+.kota_item {
+    display: flex;
+    justify-content: space-between;
+}
+.kota_item .kota_item1 h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    width: 262px;
+    line-height: 150%;
+    margin-top: 16px;
+}
+.kota_item .kota_item1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    width: 356px;
+    line-height: 30px;
+    margin-top: 8px;
+}
+/* ============ Kota End ============= */
+
+/* ============ Hubungi Start ============= */
+#hubungi {
+    background-color: #EEEDDE;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+#hubungi .hubungiWrapper h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    width: 261px;
+}
+.hubungiWrapper .callbody {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 167px;
+    width: 274px;
+    margin-top: 74px;
+}
+.hubungiWrapper .callbody .phoneicon {
+    margin-top: 36px;
+    margin-left: 41px;
+    font-size: 34px;
+    color: #203239;
+    margin-right: 12px;
+}
+.hubungiWrapper .callbody h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    width: 33px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.hubungiWrapper .callbody h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+    width: 135px;   
+}
+.hubungiWrapper .callbody button {
+    height: 44px;
+    width: 108px;
+    background-color: #203239;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 27px;
+}
+.phonebody {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+    /* height: 241px; */
+    width: 65%;
+}
+.phonetext {
+    width: 35%;
+    /* height: 241px; */
+    position: relative;
+}
+.phonetext h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+    line-height: 150%;
+    width: 253px;
+}
+.phonetext .lastimg {
+    margin-top: 69px;
+    margin-left: 41px;
+
+}
+.hubungiWrapper .hubungibody {
+    display: flex;
+}
+/* ============ Hubungi End ============= */
+
+/* ============ Footer Start ============= */
+#footer {
+    background-color: #FFFFFF;
+}
+#footer .footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footerWrapper ul li {
+    display: inline-block;
+    margin-left: 100px;
+}
+#footer .footerWrapper ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+}
+/* ============ Footer End ============= */
